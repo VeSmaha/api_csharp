@@ -1,0 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+.tabela-produtos {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.tabela-produtos th, .tabela-produtos td {
+    text-align: center;
+    border: 1px solid #000; /* Adicione um valor para especificar a espessura da borda. Por exemplo, 1px. */
+    padding: 8px; /* Adicione um espaçamento interno para as células, se desejar. */
+}
+
+.tabela-produtos th {
+    background-color: rgba(123, 197, 240, 0.485);
+}
+h1{
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+}

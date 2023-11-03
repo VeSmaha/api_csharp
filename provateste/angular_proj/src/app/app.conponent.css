@@ -1,0 +1,19 @@
+a{
+    font-family: 'Titillium Web', sans-serif;
+    margin: 10px;
+    background-color: rgb(123, 197, 240);
+    color: #ffffff;
+    text-shadow: 5px 5px 5;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50px;
+    display: inline-block;
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(123, 197, 240);
+    background-color: #ffffff;
+}
+.menu{
+    margin-top: 10px;
+}

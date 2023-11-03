@@ -1,0 +1,18 @@
+<!-- <p>produto-listar works!</p> -->
+<h1>Tabela de Produtos</h1>
+<table class="tabela-produtos">
+    <tr>
+        <th>id</th>
+        <th>Nome</th>
+        <th>Descrição</th>
+        <th>Preço</th>
+        <th>Criado em</th>
+    </tr>
+    <tr *ngFor="let p of Produtos">
+        <td>{{p.produtoID}}</td>
+        <td>{{p.nome}}</td>
+        <td>{{p.descricao}}</td>
+        <td>{{p.preco | currency : "BRL"}}</td><!--pipe formatação-->
+        <td>{{p.criadoEm | date : "dd/MM/yyyy hh:mm"}}</td>
+    </tr>
+</table>

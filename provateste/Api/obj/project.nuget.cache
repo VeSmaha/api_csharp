@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Rkq73SQGR/O+eAz50WHlmYPpJdrMionmlZx3nxY7DcHKfMOYEjoXLRcxF7T6QGc6sP6rf0TMNsnELL4emY5Qgg==",
+  "dgSpecHash": "Oh4KJvo5Otnse4SdraWI9BnO4ZSMHWjSG+Wm3KCwgqQgWAoInBNpm0rDSfgILPsmWQs1TTCTA/YQFSu5d2O1IA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\smaha\\provateste\\Api\\Api.csproj",
+  "projectFilePath": "D:\\vezinha\\api_csharp\\provateste\\Api\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\smaha\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\smaha\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.21\\microsoft.data.sqlite.core.6.0.21.nupkg.sha512",
