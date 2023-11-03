@@ -1,0 +1,28 @@
+//todo arquivo q termina com http 
+//chama a extensao para fazer testes
+//### -> mostra q é um novo teste
+//separarpor uma linha o cabegalho do body
+
+### Listar Produtos
+GET https://localhost:7188/api/produto/listar
+
+### Cadastrar produto
+
+POST https://localhost:7188/api/produto/cadastrar
+Content-Type: application/json
+
+{
+    "Nome" : "Produto C",
+    "Descricao" : "Este é o Produto C, uma descrição detalhada sobre o produto.",
+    "Preco" : 29.99,
+    "categoryId": 2
+}
+//cabeçalho para passar atributos na rota
+//toda vez que chama a controller estancia de novo, reconstruindo
+//por isso ele nao guarda, resolver sem banco de dados-> colocar static na lista
+
+### Buscar Produtos
+GET https://localhost:7188/api/produto/buscar/2
+
+### Deletar Produto
+DELETE https://localhost:7188/api/produto/deletar/2

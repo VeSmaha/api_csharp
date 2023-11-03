@@ -1,0 +1,16 @@
+//todo arquivo q termina com http 
+//chama a extensao para fazer testes
+//### -> mostra q é um novo teste
+//separarpor uma linha o cabegalho do body
+
+### Listar Produtos
+GET https://localhost:7188/api/categoria/listar
+
+### Cadastrar produto
+
+POST https://localhost:7188/api/categoria/cadastrar
+Content-Type: application/json
+
+{
+    "Nome" : "Categoria B"
+}
