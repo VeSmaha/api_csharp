@@ -19,3 +19,18 @@ h1{
     text-align: center;
     font-family: 'Titillium Web', sans-serif;
 }
+a{
+    color: rgb(0, 0, 0);
+    padding:5px;
+    font-size: 14px;
+    text-decoration: none;
+    background-color: rgba(123, 197, 240, 0.485);
+    border-radius: 3px;
+}
+button{
+    background-color: rgba(123, 197, 240, 0.485);
+    border-color:  rgba(123, 197, 240, 0.485);
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 3px;
+}

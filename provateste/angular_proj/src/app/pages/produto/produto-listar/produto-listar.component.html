@@ -8,7 +8,8 @@
         <th>Preço</th>
         <th>Criado em</th>
         <th>Categoria</th>
-        <th>Deletar</th>
+        <th></th>
+        <th></th>
     </tr>
     <tr *ngFor="let p of Produtos">
         <td>{{p.produtoID}}</td>
@@ -19,6 +20,11 @@
         <td>{{p.category?.nome}}</td>
         <td>
             <button (click)="deletar(p.produtoID)">Deletar</button> 
+        </td>
+        <td>
+            <a href="" routerLink="/pages/produto/alterar/{{
+                p.produtoID
+              }}">Atualizar</a>
         </td>
     </tr>
 </table>

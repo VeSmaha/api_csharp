@@ -9,8 +9,9 @@
     <label for="">Preço</label>
     <input type="text" [(ngModel)]="preco">
 
+    
     <p>Categoria</p>
-    <select [(ngModel)]="categoryId"> 
+    <select [(ngModel)]="categoryId">
         <option  *ngFor="let c of categorias"
         [value]="c.categoryId">
         {{ c.nome }}
@@ -18,6 +19,6 @@
 
     </select>
 
-    <button (click)="cadastrar()">Cadastrar Produto</button>
+    <button (click)="alterar()">Atualizar Produto</button>
 </div>
 </div>
