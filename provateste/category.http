@@ -12,5 +12,5 @@ POST https://localhost:7098/api/categoria/cadastrar
 Content-Type: application/json
 
 {
-    "Nome" : "Categoria B"
+    "Nome" : "Categoria A"
 }

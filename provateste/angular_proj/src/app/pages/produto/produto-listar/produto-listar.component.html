@@ -7,6 +7,8 @@
         <th>Descrição</th>
         <th>Preço</th>
         <th>Criado em</th>
+        <th>Categoria</th>
+        <th>Deletar</th>
     </tr>
     <tr *ngFor="let p of Produtos">
         <td>{{p.produtoID}}</td>
@@ -14,5 +16,9 @@
         <td>{{p.descricao}}</td>
         <td>{{p.preco | currency : "BRL"}}</td><!--pipe formatação-->
         <td>{{p.criadoEm | date : "dd/MM/yyyy hh:mm"}}</td>
+        <td>{{p.category?.nome}}</td>
+        <td>
+            <button (click)="deletar(p.produtoID)">Deletar</button> 
+        </td>
     </tr>
 </table>

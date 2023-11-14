@@ -1,1 +1,22 @@
-<p>produto-cadastrar works!</p>
+<div class="container">
+    <div>
+    <label for="">Nome</label>
+    <input type="text" [(ngModel)]="nome">
+
+    <label for="">Descrição</label>
+    <input type="text" [(ngModel)]="descricao"><!--Nome da ngModel mesmo da var no ts-->
+
+    <label for="">Preço</label>
+    <input type="text" [(ngModel)]="preco">
+
+    <select [(ngModel)]="categoryId">
+        <option  *ngFor="let c of categorias"
+        [value]="c.categoryId">
+        {{ c.nome }}
+        </option>
+
+    </select>
+
+    <button (click)="cadastrar()">Cadastrar Produto</button>
+</div>
+</div>

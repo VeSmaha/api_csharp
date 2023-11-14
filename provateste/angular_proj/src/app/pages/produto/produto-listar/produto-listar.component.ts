@@ -27,4 +27,25 @@ export class ProdutoListarComponent {
         error:(erro)=>{console.log("Erro: "+ erro)}
       })
     }
+
+    deletar(produtoId: number | undefined) {
+      this.client
+        .delete<Produto[]>(
+          `https://localhost:7098/api/produto/deletar/${produtoId}`
+        )
+        .subscribe({
+          //Requisição com sucesso
+          next: (produtos) => {
+            this.Produtos = produtos;
+            window.location.reload();
+          },
+           
+          //Requisição com erro
+          error: (erro) => {
+            console.log(erro);
+          },
+        });
+    }
+
 }
+

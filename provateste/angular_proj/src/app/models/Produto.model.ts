@@ -1,6 +1,9 @@
+import { Categoria } from "./Categoria.model";
+
 export interface Produto{
-    // ProdutoID : Int;
+
     nome : string;
+
     descricao : string;
     
     produtoID? : number;
@@ -10,8 +13,8 @@ export interface Produto{
    
     criadoEm?: string; //date caso fosse fazer contas
 
-    // Category? : Category;
+    category? : Categoria;
 
-   categoryId : number;
+    categoryId : number;
    
 }
